@@ -7,5 +7,6 @@ A main control board for robot control in the RoboMaster competition.
 - **MCU**: Teensy 4.1  
 - **IMU**: BNO055  
 - **CAN**: 3 channels  
-- **RS485**: 1 channel  
-- **Design Tool**: KiCad  
+ 
+- **Design Tool**: KiCad 9.0
+   
