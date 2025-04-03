@@ -6818,107 +6818,6 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "power:GNDA"
-			(power)
-			(pin_numbers
-				(hide yes)
-			)
-			(pin_names
-				(offset 0)
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "#PWR"
-				(at 0 -6.35 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Value" "GNDA"
-				(at 0 -3.81 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Power symbol creates a global label with name \"GNDA\" , analog ground"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "global power"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "GNDA_0_1"
-				(polyline
-					(pts
-						(xy 0 0) (xy 0 -1.27) (xy 1.27 -1.27) (xy 0 -2.54) (xy -1.27 -1.27) (xy 0 -1.27)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "GNDA_1_1"
-				(pin power_in line
-					(at 0 0 270)
-					(length 0)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "power:PWR_FLAG"
 			(power)
 			(pin_numbers
@@ -7116,6 +7015,18 @@
 			(type none)
 		)
 		(uuid 70f7fa5c-8cac-492f-814a-8675bd290203)
+	)
+	(rectangle
+		(start 185.42 128.27)
+		(end 268.605 161.671)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 92afcf2c-a44e-4b99-8b76-9603185df44b)
 	)
 	(rectangle
 		(start 78.74 120.65)
@@ -7322,12 +7233,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "14831988-a67e-4622-b688-779304495a78")
-	)
-	(junction
-		(at 171.45 62.23)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "16c90a80-adfd-4ef9-8af8-2e032f3c0ac3")
 	)
 	(junction
 		(at 186.69 81.28)
@@ -7546,12 +7451,6 @@
 		(uuid "a41e0e8b-79db-4dda-a381-91ecd27f4a35")
 	)
 	(junction
-		(at 166.37 102.87)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "a4a181eb-28e1-47a7-a6a5-9074e488bdbc")
-	)
-	(junction
 		(at 236.728 32.512)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -7732,6 +7631,12 @@
 		(uuid "eedd6f80-0e0c-4573-bc6f-a80f4c3ff704")
 	)
 	(junction
+		(at 168.91 102.87)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "f00af082-8c2b-497f-96cd-c7f0d9410bdd")
+	)
+	(junction
 		(at 128.27 33.02)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -7796,10 +7701,6 @@
 		(uuid "998eb5d1-5f74-4172-91bb-9738347f4182")
 	)
 	(no_connect
-		(at 57.15 73.66)
-		(uuid "9dd14394-9d7c-4ee6-a59f-ab4043b1b0e6")
-	)
-	(no_connect
 		(at 33.02 68.58)
 		(uuid "a2c003f7-2c31-4323-b0fc-6058194bbe1b")
 	)
@@ -7808,32 +7709,24 @@
 		(uuid "aa69847a-45b8-49ea-b766-8ab349224d31")
 	)
 	(no_connect
-		(at 57.15 63.5)
-		(uuid "acb9e112-fbdc-4545-a4a5-ccf7d8fa32db")
-	)
-	(no_connect
 		(at 33.02 71.12)
 		(uuid "b7b9a320-f2cb-436c-8afa-79bbd773c292")
 	)
 	(no_connect
-		(at 57.15 68.58)
-		(uuid "ba004475-2f38-4985-9252-cf12874d897f")
+		(at 57.15 73.66)
+		(uuid "b7ec2cb7-ad1d-4ba3-8434-62b7c7cca563")
 	)
 	(no_connect
 		(at 57.15 76.2)
 		(uuid "bb75529e-d53b-41f5-8476-af22849992c3")
 	)
 	(no_connect
-		(at 57.15 71.12)
-		(uuid "d38d792f-baa4-4632-b529-6e67db099d22")
-	)
-	(no_connect
 		(at 151.13 81.28)
 		(uuid "e350ee22-5887-425a-a784-2d3acf18d84f")
 	)
 	(no_connect
-		(at 57.15 66.04)
-		(uuid "e6d3dc57-262e-46fc-afa1-6b789bab4373")
+		(at 57.15 63.5)
+		(uuid "f1c899d9-7f7c-406d-8128-2c6ab4751c62")
 	)
 	(wire
 		(pts
@@ -8287,6 +8180,16 @@
 	)
 	(wire
 		(pts
+			(xy 210.82 137.16) (xy 210.82 134.62)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1e0ffc84-84ae-41f3-baae-2128311e57b2")
+	)
+	(wire
+		(pts
 			(xy 146.05 60.96) (xy 148.59 60.96)
 		)
 		(stroke
@@ -8404,6 +8307,16 @@
 			(type default)
 		)
 		(uuid "27aa36c9-2cb9-4d4f-aec7-c801022888f2")
+	)
+	(wire
+		(pts
+			(xy 241.3 154.94) (xy 241.3 156.21)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "27e947de-746e-4403-a477-0f0f8d03f4c1")
 	)
 	(wire
 		(pts
@@ -8554,6 +8467,16 @@
 			(type default)
 		)
 		(uuid "34fdaa02-7c08-4b77-9fff-b9294474b7e1")
+	)
+	(wire
+		(pts
+			(xy 220.98 154.94) (xy 220.98 156.21)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "36770d79-dd4d-4d8e-b056-6abc55c292d8")
 	)
 	(wire
 		(pts
@@ -8997,16 +8920,6 @@
 	)
 	(wire
 		(pts
-			(xy 163.83 102.87) (xy 166.37 102.87)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "5b8f903a-d6d2-4f9f-8ce7-28db20ccda70")
-	)
-	(wire
-		(pts
 			(xy 259.588 94.742) (xy 259.588 89.662)
 		)
 		(stroke
@@ -9377,6 +9290,16 @@
 	)
 	(wire
 		(pts
+			(xy 251.46 137.16) (xy 251.46 134.62)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "757a633e-0145-4078-b8b2-1ef9579e2bc2")
+	)
+	(wire
+		(pts
 			(xy 21.59 152.4) (xy 26.67 152.4)
 		)
 		(stroke
@@ -9424,6 +9347,16 @@
 			(type default)
 		)
 		(uuid "7af31c21-561f-4dc2-92ce-9bd185c4636d")
+	)
+	(wire
+		(pts
+			(xy 213.36 137.16) (xy 210.82 137.16)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7bacf8dc-fe21-45a3-aeef-517e31cef1a5")
 	)
 	(wire
 		(pts
@@ -9947,6 +9880,16 @@
 	)
 	(wire
 		(pts
+			(xy 233.68 137.16) (xy 231.14 137.16)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a1fd019e-5c6b-427d-b38a-fcdbe2bc1f88")
+	)
+	(wire
+		(pts
 			(xy 153.67 33.02) (xy 168.91 33.02)
 		)
 		(stroke
@@ -9964,6 +9907,16 @@
 			(type default)
 		)
 		(uuid "a8473a8c-02ee-49a5-9eec-76505f6de1c9")
+	)
+	(wire
+		(pts
+			(xy 261.62 154.94) (xy 261.62 156.21)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a895dc68-4edc-4078-b396-94d406a696af")
 	)
 	(wire
 		(pts
@@ -11007,7 +10960,17 @@
 	)
 	(wire
 		(pts
-			(xy 166.37 102.87) (xy 168.91 102.87)
+			(xy 254 137.16) (xy 251.46 137.16)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f4602261-93e0-450d-a30e-cb8dcf366dda")
+	)
+	(wire
+		(pts
+			(xy 163.83 102.87) (xy 168.91 102.87)
 		)
 		(stroke
 			(width 0)
@@ -11084,6 +11047,16 @@
 			(type default)
 		)
 		(uuid "f801ebcc-ba3d-4f40-8bb4-8b60a2cd1c90")
+	)
+	(wire
+		(pts
+			(xy 231.14 137.16) (xy 231.14 134.62)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f8e9898e-71bc-4721-913a-1ee08d372da9")
 	)
 	(wire
 		(pts
@@ -11209,6 +11182,28 @@
 			)
 		)
 	)
+	(global_label "LED4"
+		(shape output)
+		(at 57.15 66.04 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "080dcd96-5c16-4697-b1c0-e2fa0c99526e")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 64.7918 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "DBUS"
 		(shape output)
 		(at 77.47 110.49 0)
@@ -11271,6 +11266,28 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "LED3"
+		(shape input)
+		(at 232.41 149.86 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "1fa5018f-f4ad-43d5-9745-a4fe0d014829")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 224.7682 149.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
 				(hide yes)
 			)
 		)
@@ -11781,6 +11798,28 @@
 			)
 		)
 	)
+	(global_label "LED3"
+		(shape output)
+		(at 57.15 68.58 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "6d780b0d-ddf1-41dc-bcf8-141adeafb565")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 64.7918 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "IMU_SDA"
 		(shape output)
 		(at 63.5 45.72 0)
@@ -11821,6 +11860,28 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "LED4"
+		(shape input)
+		(at 252.73 149.86 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "821655e5-4a7d-4926-8ca1-6e1a2cb8cd9a")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 245.0882 149.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
 				(hide yes)
 			)
 		)
@@ -12133,6 +12194,28 @@
 			)
 		)
 	)
+	(global_label "LED2"
+		(shape input)
+		(at 212.09 149.86 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "afd66d03-ab00-4399-bb11-e2d30fff5616")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 204.4482 149.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "Controller_RX"
 		(shape output)
 		(at 142.24 128.27 0)
@@ -12344,6 +12427,28 @@
 		(uuid "d8604662-c5b1-4f0f-8f27-34aedb604e71")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 61.9495 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "LED2"
+		(shape output)
+		(at 57.15 71.12 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "dc9fe0bc-fb30-4454-9aef-8e08d0048f08")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 64.7918 71.12 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13036,6 +13141,111 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:LED")
+		(at 220.98 140.97 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "0989142f-b8bc-4d85-b023-81920d99e7cd")
+		(property "Reference" "D8"
+			(at 213.106 139.446 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "LED"
+			(at 213.106 141.986 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "LED_SMD:LED_0603_1608Metric"
+			(at 220.98 140.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://wmsc.lcsc.com/wmsc/upload/file/pdf/v2/lcsc/2304140030_ROHM-Semicon-SML-D12U8WT86_C510027.pdf"
+			(at 220.98 140.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Light emitting diode"
+			(at 220.98 140.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "メーカ" "Rohm"
+			(at 220.98 140.97 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "購入先" "JLCPCB"
+			(at 220.98 140.97 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "型番" "SML-D12U8WT86"
+			(at 220.98 140.97 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" " C510027"
+			(at 220.98 140.97 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "13ede7a9-5fc8-4b5b-9c72-1fca0bf370dd")
+		)
+		(pin "1"
+			(uuid "bb2262c7-6acc-4cc3-95e1-e95d19135953")
+		)
+		(instances
+			(project "NAGOYA_Normal_Board"
+				(path "/21c37265-f169-4bc1-832f-6fa8bb337745"
+					(reference "D8")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:C_Small")
 		(at 263.398 23.622 0)
 		(mirror y)
@@ -13190,73 +13400,6 @@
 			(project "NAGOYA_Normal_Board"
 				(path "/21c37265-f169-4bc1-832f-6fa8bb337745"
 					(reference "C7")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GNDA")
-		(at 171.45 62.23 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "0c356b0d-8c6a-4320-acca-84f553eb5461")
-		(property "Reference" "#PWR056"
-			(at 171.45 68.58 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GNDA"
-			(at 171.45 67.31 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Footprint" ""
-			(at 171.45 62.23 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 171.45 62.23 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GNDA\" , analog ground"
-			(at 171.45 62.23 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "7edb1e83-cca7-4432-86a9-7047c8a97465")
-		)
-		(instances
-			(project "NAGOYA_Normal_Board"
-				(path "/21c37265-f169-4bc1-832f-6fa8bb337745"
-					(reference "#PWR056")
 					(unit 1)
 				)
 			)
@@ -13506,6 +13649,101 @@
 			(project "NAGOYA_Normal_Board"
 				(path "/21c37265-f169-4bc1-832f-6fa8bb337745"
 					(reference "#PWR064")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 217.17 137.16 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "1064c114-d2ec-4067-a828-a2e661cb8eaf")
+		(property "Reference" "R7"
+			(at 217.17 130.81 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "3.3k"
+			(at 217.17 133.35 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 217.17 138.938 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2206010230_UNI-ROYAL-Uniroyal-Elec-0402WGF2001TCE_C4109.pdf"
+			(at 217.17 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 217.17 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "購入先" "https://jlcpcb.com/partdetail/4516-0402WGF2001TCE/C4109"
+			(at 217.17 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C4109"
+			(at 217.17 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "メーカ" "UNI-ROYAL(Uniroyal Elec)"
+			(at 217.17 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "adde48f4-369d-4d4c-b0e5-d1329dc037e7")
+		)
+		(pin "2"
+			(uuid "bbd85db7-a74e-493d-9068-1e3754c028bc")
+		)
+		(instances
+			(project "NAGOYA_Normal_Board"
+				(path "/21c37265-f169-4bc1-832f-6fa8bb337745"
+					(reference "R7")
 					(unit 1)
 				)
 			)
@@ -16039,6 +16277,101 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:R")
+		(at 237.49 137.16 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "3612911f-2d93-4c99-934d-ecfc4ef3171e")
+		(property "Reference" "R14"
+			(at 237.49 130.81 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "3.3k"
+			(at 237.49 133.35 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 237.49 138.938 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2206010230_UNI-ROYAL-Uniroyal-Elec-0402WGF2001TCE_C4109.pdf"
+			(at 237.49 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 237.49 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "購入先" "https://jlcpcb.com/partdetail/4516-0402WGF2001TCE/C4109"
+			(at 237.49 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C4109"
+			(at 237.49 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "メーカ" "UNI-ROYAL(Uniroyal Elec)"
+			(at 237.49 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "9e7004be-2ab4-4797-81b8-d1a532068172")
+		)
+		(pin "2"
+			(uuid "750a8f62-e22e-4fda-923a-544420fbc989")
+		)
+		(instances
+			(project "NAGOYA_Normal_Board"
+				(path "/21c37265-f169-4bc1-832f-6fa8bb337745"
+					(reference "R14")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Mechanical:MountingHole")
 		(at 168.91 144.78 180)
 		(unit 1)
@@ -16519,6 +16852,71 @@
 		)
 	)
 	(symbol
+		(lib_id "power:GND")
+		(at 204.47 83.82 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "42ad91af-b298-48a9-bb66-9f821cb78c4b")
+		(property "Reference" "#PWR094"
+			(at 204.47 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 204.47 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 204.47 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 204.47 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 204.47 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "214ea742-9389-43c9-821a-2a5da7759b35")
+		)
+		(instances
+			(project "NAGOYA_Normal_Board"
+				(path "/21c37265-f169-4bc1-832f-6fa8bb337745"
+					(reference "#PWR094")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Power_Protection:NUP2105L")
 		(at 231.648 36.322 0)
 		(mirror y)
@@ -16857,73 +17255,6 @@
 			(project "NAGOYA_Normal_Board"
 				(path "/21c37265-f169-4bc1-832f-6fa8bb337745"
 					(reference "ZD11")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GNDA")
-		(at 142.24 97.79 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "46eef9da-87c6-475f-abb9-c50a494a2d6a")
-		(property "Reference" "#PWR057"
-			(at 142.24 104.14 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GNDA"
-			(at 142.24 102.87 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Footprint" ""
-			(at 142.24 97.79 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 142.24 97.79 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GNDA\" , analog ground"
-			(at 142.24 97.79 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "3f3cbb9e-2af4-4bb6-9b8c-f7d0869f8bdc")
-		)
-		(instances
-			(project "NAGOYA_Normal_Board"
-				(path "/21c37265-f169-4bc1-832f-6fa8bb337745"
-					(reference "#PWR057")
 					(unit 1)
 				)
 			)
@@ -17532,6 +17863,143 @@
 		)
 	)
 	(symbol
+		(lib_id "Transistor_BJT:DTC114E")
+		(at 218.44 149.86 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "52f2d72f-f249-4beb-bfc9-74e6e6e4978c")
+		(property "Reference" "Q4"
+			(at 211.836 146.7486 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "DDTC114EUA-7-F"
+			(at 205.232 154.686 0)
+			(effects
+				(font
+					(size 1 1)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-323_SC-70"
+			(at 218.44 149.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 218.44 149.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 218.44 149.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C177021"
+			(at 218.44 149.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "メーカー名" "Diodes"
+			(at 218.44 149.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "型番" "DDTC114EUA-7-F"
+			(at 218.44 149.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "購入URL" "https://jlcpcb.com/partdetail/DiodesIncorporated-DDTC114EUA_7F/C177021"
+			(at 218.44 149.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "購入先" "JLCPCB"
+			(at 218.44 149.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "部品名称" "抵抗入りトランジスタ"
+			(at 218.44 149.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "購入要否" "✕"
+			(at 218.44 149.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "e00703e9-d6a5-423a-a0c9-c27b39e2bb51")
+		)
+		(pin "2"
+			(uuid "3b1754f5-89b2-4d23-97eb-f4e64c6dd1a9")
+		)
+		(pin "3"
+			(uuid "eebcdca6-d00f-49c3-8cc4-883360cedcf3")
+		)
+		(instances
+			(project "NAGOYA_Normal_Board"
+				(path "/21c37265-f169-4bc1-832f-6fa8bb337745"
+					(reference "Q4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:R")
 		(at 196.85 101.6 180)
 		(unit 1)
@@ -17593,6 +18061,71 @@
 			(project "NAGOYA_Normal_Board"
 				(path "/21c37265-f169-4bc1-832f-6fa8bb337745"
 					(reference "R49")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+5V")
+		(at 251.46 134.62 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "544d211e-7562-4908-b900-59b7d091378b")
+		(property "Reference" "#PWR056"
+			(at 251.46 138.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+5V"
+			(at 251.46 130.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 251.46 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 251.46 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+5V\""
+			(at 251.46 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "a79e7ec2-0942-4fe8-a29a-ae0dc42db282")
+		)
+		(instances
+			(project "NAGOYA_Normal_Board"
+				(path "/21c37265-f169-4bc1-832f-6fa8bb337745"
+					(reference "#PWR056")
 					(unit 1)
 				)
 			)
@@ -17995,6 +18528,71 @@
 			(project "NAGOYA_Normal_Board"
 				(path "/21c37265-f169-4bc1-832f-6fa8bb337745"
 					(reference "C12")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 220.98 156.21 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "59067c59-4a36-411b-8c31-6c6bda604b4a")
+		(property "Reference" "#PWR049"
+			(at 220.98 162.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 220.98 160.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 220.98 156.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 220.98 156.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 220.98 156.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "a93a2f0a-e9ba-4c6d-9a7b-9ca5d1095be9")
+		)
+		(instances
+			(project "NAGOYA_Normal_Board"
+				(path "/21c37265-f169-4bc1-832f-6fa8bb337745"
+					(reference "#PWR049")
 					(unit 1)
 				)
 			)
@@ -18567,6 +19165,143 @@
 		)
 	)
 	(symbol
+		(lib_id "Transistor_BJT:DTC114E")
+		(at 238.76 149.86 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "5d942a54-9288-41b2-a764-0db3a4dc97d4")
+		(property "Reference" "Q5"
+			(at 232.156 146.7486 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "DDTC114EUA-7-F"
+			(at 225.552 154.686 0)
+			(effects
+				(font
+					(size 1 1)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-323_SC-70"
+			(at 238.76 149.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 238.76 149.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 238.76 149.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C177021"
+			(at 238.76 149.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "メーカー名" "Diodes"
+			(at 238.76 149.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "型番" "DDTC114EUA-7-F"
+			(at 238.76 149.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "購入URL" "https://jlcpcb.com/partdetail/DiodesIncorporated-DDTC114EUA_7F/C177021"
+			(at 238.76 149.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "購入先" "JLCPCB"
+			(at 238.76 149.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "部品名称" "抵抗入りトランジスタ"
+			(at 238.76 149.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "購入要否" "✕"
+			(at 238.76 149.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "d0eaf6fc-d027-4151-a8f3-9f38e6596da8")
+		)
+		(pin "2"
+			(uuid "b6d11029-e05a-49e6-9514-35d8b2ddb879")
+		)
+		(pin "3"
+			(uuid "5c743092-dded-4ca9-a71a-697ef369ddb4")
+		)
+		(instances
+			(project "NAGOYA_Normal_Board"
+				(path "/21c37265-f169-4bc1-832f-6fa8bb337745"
+					(reference "Q5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:C_Small")
 		(at 153.67 26.67 0)
 		(unit 1)
@@ -19033,6 +19768,71 @@
 		)
 	)
 	(symbol
+		(lib_id "power:GND")
+		(at 261.62 156.21 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "62b22987-5d8b-4dc9-aedb-e35498222e1b")
+		(property "Reference" "#PWR057"
+			(at 261.62 162.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 261.62 160.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 261.62 156.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 261.62 156.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 261.62 156.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "d9a8e6a6-5b31-4515-a7a4-64e567ac964b")
+		)
+		(instances
+			(project "NAGOYA_Normal_Board"
+				(path "/21c37265-f169-4bc1-832f-6fa8bb337745"
+					(reference "#PWR057")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:PWR_FLAG")
 		(at 22.86 167.64 0)
 		(unit 1)
@@ -19252,6 +20052,71 @@
 			(project "NAGOYA_Normal_Board"
 				(path "/21c37265-f169-4bc1-832f-6fa8bb337745"
 					(reference "C10")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 181.61 105.41 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "636d3bb3-e9f6-4fe6-9eff-252128a85a5b")
+		(property "Reference" "#PWR092"
+			(at 181.61 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 181.61 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 181.61 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 181.61 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 181.61 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "099b7fb0-227c-45a5-a741-b6e904e955b5")
+		)
+		(instances
+			(project "NAGOYA_Normal_Board"
+				(path "/21c37265-f169-4bc1-832f-6fa8bb337745"
+					(reference "#PWR092")
 					(unit 1)
 				)
 			)
@@ -19610,6 +20475,101 @@
 			(project "NAGOYA_Normal_Board"
 				(path "/21c37265-f169-4bc1-832f-6fa8bb337745"
 					(reference "#PWR085")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 257.81 137.16 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "69610405-d135-423b-9e61-ce8ea686ec75")
+		(property "Reference" "R16"
+			(at 257.81 130.81 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "3.3k"
+			(at 257.81 133.35 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 257.81 138.938 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2206010230_UNI-ROYAL-Uniroyal-Elec-0402WGF2001TCE_C4109.pdf"
+			(at 257.81 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 257.81 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "購入先" "https://jlcpcb.com/partdetail/4516-0402WGF2001TCE/C4109"
+			(at 257.81 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C4109"
+			(at 257.81 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "メーカ" "UNI-ROYAL(Uniroyal Elec)"
+			(at 257.81 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "1bd78bb0-4300-49b6-bed0-1471d7872fee")
+		)
+		(pin "2"
+			(uuid "d92b0f09-fe52-45e5-b5e2-433667fbcf71")
+		)
+		(instances
+			(project "NAGOYA_Normal_Board"
+				(path "/21c37265-f169-4bc1-832f-6fa8bb337745"
+					(reference "R16")
 					(unit 1)
 				)
 			)
@@ -20981,17 +21941,16 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GNDA")
-		(at 204.47 83.82 0)
+		(lib_id "power:GND")
+		(at 241.3 156.21 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "83b960a7-dd66-4594-bc7a-46a2f5e27ea6")
+		(uuid "844c7796-4704-4f6d-a11a-25b47c2ae48d")
 		(property "Reference" "#PWR055"
-			(at 204.47 90.17 0)
+			(at 241.3 162.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20999,17 +21958,16 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "GNDA"
-			(at 204.47 88.9 0)
+		(property "Value" "GND"
+			(at 241.3 160.02 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Footprint" ""
-			(at 204.47 83.82 0)
+			(at 241.3 156.21 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21018,7 +21976,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 204.47 83.82 0)
+			(at 241.3 156.21 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21026,8 +21984,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Power symbol creates a global label with name \"GNDA\" , analog ground"
-			(at 204.47 83.82 0)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 241.3 156.21 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21036,12 +21994,117 @@
 			)
 		)
 		(pin "1"
-			(uuid "813ab1f7-f1fd-4a06-a7cb-10b43b8decf7")
+			(uuid "32f2f3d1-ea01-48fe-b40f-94b997a4356c")
 		)
 		(instances
 			(project "NAGOYA_Normal_Board"
 				(path "/21c37265-f169-4bc1-832f-6fa8bb337745"
 					(reference "#PWR055")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:LED")
+		(at 261.62 140.97 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "8741cfbe-6eca-45bc-a76e-6a56f37f04bd")
+		(property "Reference" "D10"
+			(at 253.746 139.446 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "LED"
+			(at 253.746 141.986 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "LED_SMD:LED_0603_1608Metric"
+			(at 261.62 140.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://wmsc.lcsc.com/wmsc/upload/file/pdf/v2/lcsc/2304140030_ROHM-Semicon-SML-D12U8WT86_C510027.pdf"
+			(at 261.62 140.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Light emitting diode"
+			(at 261.62 140.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "メーカ" "Rohm"
+			(at 261.62 140.97 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "購入先" "JLCPCB"
+			(at 261.62 140.97 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "型番" "SML-D12U8WT86"
+			(at 261.62 140.97 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" " C510027"
+			(at 261.62 140.97 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "e5db3391-26c7-4096-9189-57ab2a42508e")
+		)
+		(pin "1"
+			(uuid "c6429cb6-9761-4d07-b08b-b3725b295c58")
+		)
+		(instances
+			(project "NAGOYA_Normal_Board"
+				(path "/21c37265-f169-4bc1-832f-6fa8bb337745"
+					(reference "D10")
 					(unit 1)
 				)
 			)
@@ -21521,73 +22584,6 @@
 			(project "NAGOYA_Normal_Board"
 				(path "/21c37265-f169-4bc1-832f-6fa8bb337745"
 					(reference "#PWR078")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GNDA")
-		(at 166.37 102.87 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "8f59dfdf-6522-4ea3-8bfe-0648b4f3901d")
-		(property "Reference" "#PWR051"
-			(at 166.37 109.22 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GNDA"
-			(at 166.37 107.95 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Footprint" ""
-			(at 166.37 102.87 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 166.37 102.87 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GNDA\" , analog ground"
-			(at 166.37 102.87 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "3c5c4074-e7aa-43b5-ac50-2abbf594736c")
-		)
-		(instances
-			(project "NAGOYA_Normal_Board"
-				(path "/21c37265-f169-4bc1-832f-6fa8bb337745"
-					(reference "#PWR051")
 					(unit 1)
 				)
 			)
@@ -22260,6 +23256,71 @@
 		)
 	)
 	(symbol
+		(lib_id "power:GND")
+		(at 196.85 107.95 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "9f193ca7-f653-4c27-99e7-5d9b90c64bbc")
+		(property "Reference" "#PWR093"
+			(at 196.85 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 196.85 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 196.85 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 196.85 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 196.85 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "72bc816f-9a21-4931-bc66-678fcb3532c3")
+		)
+		(instances
+			(project "NAGOYA_Normal_Board"
+				(path "/21c37265-f169-4bc1-832f-6fa8bb337745"
+					(reference "#PWR093")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Diode:ESD5Zxx")
 		(at 101.6 90.17 270)
 		(unit 1)
@@ -22383,17 +23444,16 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GNDA")
-		(at 196.85 107.95 0)
+		(lib_id "power:+5V")
+		(at 231.14 134.62 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "a425ff54-799d-4c92-b2fc-a3ee2f2ecbb1")
-		(property "Reference" "#PWR058"
-			(at 196.85 114.3 0)
+		(uuid "a7f87133-44ea-41b1-b752-65af678e5fc0")
+		(property "Reference" "#PWR051"
+			(at 231.14 138.43 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22401,17 +23461,16 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "GNDA"
-			(at 196.85 113.03 0)
+		(property "Value" "+5V"
+			(at 231.14 130.81 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Footprint" ""
-			(at 196.85 107.95 0)
+			(at 231.14 134.62 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22420,7 +23479,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 196.85 107.95 0)
+			(at 231.14 134.62 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22428,8 +23487,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Power symbol creates a global label with name \"GNDA\" , analog ground"
-			(at 196.85 107.95 0)
+		(property "Description" "Power symbol creates a global label with name \"+5V\""
+			(at 231.14 134.62 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22438,12 +23497,12 @@
 			)
 		)
 		(pin "1"
-			(uuid "b33f1aad-5bca-4e95-bb29-da61c9456174")
+			(uuid "d2e6b39e-2835-4c93-ac75-791cff16ccb5")
 		)
 		(instances
 			(project "NAGOYA_Normal_Board"
 				(path "/21c37265-f169-4bc1-832f-6fa8bb337745"
-					(reference "#PWR058")
+					(reference "#PWR051")
 					(unit 1)
 				)
 			)
@@ -24383,6 +25442,71 @@
 		)
 	)
 	(symbol
+		(lib_id "power:GND")
+		(at 168.91 102.87 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "c51ac9a8-6010-4377-b716-6d30b737b49f")
+		(property "Reference" "#PWR091"
+			(at 168.91 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 168.91 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 168.91 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 168.91 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 168.91 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "8479a9e0-4879-4ce9-8a94-e5c4648ab650")
+		)
+		(instances
+			(project "NAGOYA_Normal_Board"
+				(path "/21c37265-f169-4bc1-832f-6fa8bb337745"
+					(reference "#PWR091")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Jumper:SolderJumper_2_Open")
 		(at 196.85 91.44 270)
 		(unit 1)
@@ -24576,6 +25700,71 @@
 			(project "NAGOYA_Normal_Board"
 				(path "/21c37265-f169-4bc1-832f-6fa8bb337745"
 					(reference "#PWR038")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+5V")
+		(at 210.82 134.62 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "c9ddeca4-9bf8-4f14-830c-560604a5a9d3")
+		(property "Reference" "#PWR048"
+			(at 210.82 138.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+5V"
+			(at 210.82 130.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 210.82 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 210.82 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+5V\""
+			(at 210.82 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "fca284ac-c52b-45dd-a044-9a7a6dc13b10")
+		)
+		(instances
+			(project "NAGOYA_Normal_Board"
+				(path "/21c37265-f169-4bc1-832f-6fa8bb337745"
+					(reference "#PWR048")
 					(unit 1)
 				)
 			)
@@ -25255,6 +26444,111 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:LED")
+		(at 241.3 140.97 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "d5203801-a66f-41e8-9e60-01debae47ac7")
+		(property "Reference" "D9"
+			(at 233.426 139.446 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "LED"
+			(at 233.426 141.986 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "LED_SMD:LED_0603_1608Metric"
+			(at 241.3 140.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://wmsc.lcsc.com/wmsc/upload/file/pdf/v2/lcsc/2304140030_ROHM-Semicon-SML-D12U8WT86_C510027.pdf"
+			(at 241.3 140.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Light emitting diode"
+			(at 241.3 140.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "メーカ" "Rohm"
+			(at 241.3 140.97 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "購入先" "JLCPCB"
+			(at 241.3 140.97 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "型番" "SML-D12U8WT86"
+			(at 241.3 140.97 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" " C510027"
+			(at 241.3 140.97 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "5cfcee53-54be-49af-8782-0ce472a20c5e")
+		)
+		(pin "1"
+			(uuid "a8a6cebd-c812-42cd-9641-05c9a672f194")
+		)
+		(instances
+			(project "NAGOYA_Normal_Board"
+				(path "/21c37265-f169-4bc1-832f-6fa8bb337745"
+					(reference "D9")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:+3.3V")
 		(at 276.098 54.102 0)
 		(unit 1)
@@ -25644,7 +26938,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 62.23 64.77 0)
+			(at 64.262 64.008 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -25685,73 +26979,6 @@
 			(project "NAGOYA_Normal_Board"
 				(path "/21c37265-f169-4bc1-832f-6fa8bb337745"
 					(reference "#PWR06")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GNDA")
-		(at 181.61 105.41 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "deb62bfa-6668-404a-a1ab-3a2caad51851")
-		(property "Reference" "#PWR044"
-			(at 181.61 111.76 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GNDA"
-			(at 181.61 110.49 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Footprint" ""
-			(at 181.61 105.41 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 181.61 105.41 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GNDA\" , analog ground"
-			(at 181.61 105.41 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "471b84e4-c831-4a09-adc4-c30244e908ec")
-		)
-		(instances
-			(project "NAGOYA_Normal_Board"
-				(path "/21c37265-f169-4bc1-832f-6fa8bb337745"
-					(reference "#PWR044")
 					(unit 1)
 				)
 			)
@@ -26688,6 +27915,71 @@
 		)
 	)
 	(symbol
+		(lib_id "power:GND")
+		(at 142.24 97.79 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "f1191095-a420-487f-89d5-d5a0a39fb0d6")
+		(property "Reference" "#PWR090"
+			(at 142.24 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 142.24 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 142.24 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 142.24 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 142.24 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "04a9d1f3-e561-4628-9f28-773afb68f1a7")
+		)
+		(instances
+			(project "NAGOYA_Normal_Board"
+				(path "/21c37265-f169-4bc1-832f-6fa8bb337745"
+					(reference "#PWR090")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Connector_Generic_MountingPin:Conn_01x02_MountingPin")
 		(at 41.91 115.57 0)
 		(mirror y)
@@ -27353,6 +28645,143 @@
 			(project "NAGOYA_Normal_Board"
 				(path "/21c37265-f169-4bc1-832f-6fa8bb337745"
 					(reference "#PWR071")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Transistor_BJT:DTC114E")
+		(at 259.08 149.86 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "f679bc93-d591-4455-b01b-837f59f6c39d")
+		(property "Reference" "Q6"
+			(at 252.476 146.7486 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "DDTC114EUA-7-F"
+			(at 245.872 154.686 0)
+			(effects
+				(font
+					(size 1 1)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-323_SC-70"
+			(at 259.08 149.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 259.08 149.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 259.08 149.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C177021"
+			(at 259.08 149.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "メーカー名" "Diodes"
+			(at 259.08 149.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "型番" "DDTC114EUA-7-F"
+			(at 259.08 149.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "購入URL" "https://jlcpcb.com/partdetail/DiodesIncorporated-DDTC114EUA_7F/C177021"
+			(at 259.08 149.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "購入先" "JLCPCB"
+			(at 259.08 149.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "部品名称" "抵抗入りトランジスタ"
+			(at 259.08 149.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "購入要否" "✕"
+			(at 259.08 149.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "30bb137c-1501-4b25-85dc-6d188218269b")
+		)
+		(pin "2"
+			(uuid "959c677b-abb1-4c03-b81e-6796aceb4a91")
+		)
+		(pin "3"
+			(uuid "084bff90-b8c5-4b9a-9da7-b57bdbcc7900")
+		)
+		(instances
+			(project "NAGOYA_Normal_Board"
+				(path "/21c37265-f169-4bc1-832f-6fa8bb337745"
+					(reference "Q6")
 					(unit 1)
 				)
 			)

@@ -1,102 +1,4 @@
-24862319832618123
-0_PCB
-11-3C1
-<h3>TLP290(SE </h3><p>TOSHIBA 11-3C1 or SO4-TOS</p>
-
-0
-4
-4
-0_PCB
-56
-
-
-0
-56
-1
-0_PCB
-942H-2C-24DS
-
-
-0
-8
-8
-0_PCB
-AMASS_MR30PW-FB_1x03_P3.50mm_Horizontal
-Connector XT30 Horizontal PCB Female, https://www.tme.eu/en/Document/5e47640ba39fa492dbd4c0f4c8ae7b93/MR30PW%20SPEC.pdf
-RC Connector XT30
-0
-5
-3
-0_PCB
-AMASS_MR30PW-M_1x03_P3.50mm_Horizontal
-Connector XT30 Horizontal PCB Male, https://www.tme.eu/en/Document/5e47640ba39fa492dbd4c0f4c8ae7b93/MR30PW%20SPEC.pdf
-RC Connector XT30
-0
-5
-3
-0_PCB
-AMASS_XT30PW-F_1x02_P2.50mm_Horizontal
-Connector XT30 Horizontal PCB Female, https://www.tme.eu/en/Document/ce4077e36b79046da520ca73227e15de/XT30PW%20SPEC.pdf
-RC Connector XT30
-0
-4
-2
-0_PCB
-AMASS_XT30PW-M_1x02_P2.50mm_Horizontal
-Connector XT30 Horizontal PCB Male, https://www.tme.eu/en/Document/ce4077e36b79046da520ca73227e15de/XT30PW%20SPEC.pdf
-RC Connector XT30
-0
-4
-2
-0_PCB
-AMASS_XT30U-F_1x02_P5.0mm_Vertical
-Connector XT30 Vertical Cable Female, https://www.tme.eu/en/Document/3cbfa5cfa544d79584972dd5234a409e/XT30U%20SPEC.pdf
-RC Connector XT30
-0
-2
-2
-0_PCB
-AMASS_XT30U-M_1x02_P5.0mm_Vertical
-Connector XT30 Vertical Cable Male, https://www.tme.eu/en/Document/3cbfa5cfa544d79584972dd5234a409e/XT30U%20SPEC.pdf
-RC Connector XT30
-0
-2
-2
-0_PCB
-AMASS_XT30UPB-F_1x02_P5.0mm_Vertical
-Connector XT30 Vertical PCB Female, https://www.tme.eu/en/Document/4acc913878197f8c2e30d4b8cdc47230/XT30UPB%20SPEC.pdf
-RC Connector XT30
-0
-2
-2
-0_PCB
-AMASS_XT30UPB-M_1x02_P5.0mm_Vertical
-Connector XT30 Vertical PCB Male, https://www.tme.eu/en/Document/4acc913878197f8c2e30d4b8cdc47230/XT30UPB%20SPEC.pdf
-RC Connector XT30
-0
-2
-2
-0_PCB
-AMASS_XT60-F_1x02_P7.20mm_Vertical
-AMASS female XT60, through hole, vertical, https://www.tme.eu/Document/2d152ced3b7a446066e6c419d84bb460/XT60%20SPEC.pdf
-XT60 female vertical
-0
-2
-2
-0_PCB
-AMASS_XT60-M_1x02_P7.20mm_Vertical
-AMASS female XT60, through hole, vertical, https://www.tme.eu/Document/2d152ced3b7a446066e6c419d84bb460/XT60%20SPEC.pdf
-XT60 female vertical
-0
-2
-2
-0_PCB
-AMPHENOL_SFV8R-2STE1HLF
-
-
-0
-10
-10
+24823980630364048
 0_PCB
 Converter_DCDC_COSEL_MGFW802412
 
@@ -168,33 +70,12 @@ THT DIP DIL PDIP 2.54mm 25.4mm 1000mil Socket
 38
 38
 0_PCB
-DSUB-9_Female_Horizontal_P2.77x2.84mm_EdgePinOffset8.08mm_Housed_MountingHolesOffset9.52mm
-9-pin D-Sub connector, horizontal/angled (90 deg), THT-mount, female, pitch 2.77x2.84mm, pin-PCB-offset 9.9mm, distance of mounting holes 25mm, distance of mounting holes to PCB edge 11.32mm, see https://disti-assets.s3.amazonaws.com/tonar/files/datasheets/16730.pdf
-9-pin D-Sub connector horizontal angled 90deg THT female pitch 2.77x2.84mm pin-PCB-offset 9.9mm mounting-holes-distance 25mm mounting-hole-offset 25mm
-0
-11
-10
-0_PCB
 ESP32-C6-DevKitC-1
 40-lead though-hole mounted DIP package, row spacing 25.4 mm (1000 mils), Socket
 THT DIP DIL PDIP 2.54mm 25.4mm 1000mil Socket
 0
 32
 32
-0_PCB
-ESP32-C6-WROOM-1
-ESP32-C6-WROOM-1: https://www.espressif.com/sites/default/files/documentation/esp32-c6-wroom-1_datasheet_en.pdf
-esp32-c6
-0
-37
-29
-0_PCB
-FIL_LXES11DAA2-137
-
-
-0
-6
-6
 0_PCB
 Fuse_Littelfuse_0603L_Series
 Fuse SMD 0603 (1608 Metric), Littelfuse 0603L Series Poly Switch
@@ -413,13 +294,6 @@ Through hole pin header THT 2x20 2.54mm double row
 40
 40
 0_PCB
-Relay_DPDT_942H-2C-24DS
-
-
-0
-8
-8
-0_PCB
 Relay_SPDT_CIT_J115F_THT
 Relay SPDT CIT J115F1
 Relay SPDT CIT J115F1
@@ -427,12 +301,12 @@ Relay SPDT CIT J115F1
 5
 5
 0_PCB
-SIP3_LMS78-12_GAP
+RoboMaster
 
-LMS78_12-2.0R 
+
 0
-3
-3
+0
+0
 0_PCB
 Seeed_Studio_XIAO_ESP32C3_DirectMount
 ESP32-C3 is a 32-bit RISC-V CPU, which includes an FPU, WiFi and Bluetooth.
@@ -448,23 +322,16 @@ THT DIP DIL PDIP 2.54mm 15.24mm 600mil LongPads XIAO ESP32C3
 14
 14
 0_PCB
-TB_Molex_38969-0002_2P_P12.7mm
+TB_Amphenol-Anytek_YK8810203000G_2P_P12.7mm
 
-Amphenol Anytek YK8810203000G
+
 0
 2
 2
-0_PCB
-TB_Molex_38969-0003_3P_P12.7mm
-
-Amphenol Anytek YK8810303000G
-0
-3
-3
 0_PCB
 TB_Molex_38969-0004_4P_P12.7mm
 
-Amphenol Anytek YK8810403000G
+
 0
 4
 4
@@ -483,33 +350,12 @@ TE Connectivity Dynamic D-5200S Series 2P
 4
 2
 0_PCB
-V-DFN3020-13
-
-
-0
-9
-9
-0_PCB
 WDFN-8-1EP_3.3x3.3mm_P0.65mm_FET
 WDFN, 8 Pin (http://ww1.microchip.com/downloads/en/DeviceDoc/8L_TDFN_2x3_MNY_C04-0129E-MNY.pdf), generated with kicad-footprint-generator ipc_noLead_generator.py
 WDFN NoLead
 0
 15
 5
-0_PCB
-名称未設定
-
-
-0
-0
-0
-0_PCB
-名称未設定_1
-
-
-0
-0
-0
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
