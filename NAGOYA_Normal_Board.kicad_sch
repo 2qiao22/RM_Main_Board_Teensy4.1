@@ -11108,36 +11108,6 @@
 		)
 		(uuid "fff91285-3ab6-4565-875b-9134e85d2304")
 	)
-	(label "Vio"
-		(at 263.398 89.662 0)
-		(effects
-			(font
-				(size 1 1)
-			)
-			(justify left bottom)
-		)
-		(uuid "42d3d15b-f7b7-4ba2-b717-92a5e632179a")
-	)
-	(label "Vio"
-		(at 263.398 19.812 0)
-		(effects
-			(font
-				(size 1 1)
-			)
-			(justify left bottom)
-		)
-		(uuid "88a2b82b-d32d-4f1b-b88e-c36b9980b89d")
-	)
-	(label "Vio"
-		(at 263.398 55.372 0)
-		(effects
-			(font
-				(size 1 1)
-			)
-			(justify left bottom)
-		)
-		(uuid "c86c1025-5ff5-45c8-a577-696538d0ca3f")
-	)
 	(global_label "RX7"
 		(shape input)
 		(at 26.67 73.66 180)
