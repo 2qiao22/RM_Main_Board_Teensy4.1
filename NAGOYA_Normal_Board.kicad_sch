@@ -8217,6 +8217,10 @@
 		(uuid "e350ee22-5887-425a-a784-2d3acf18d84f")
 	)
 	(no_connect
+		(at 33.02 55.88)
+		(uuid "e68fd60b-fb66-4d20-9ed5-36b55ee43ccb")
+	)
+	(no_connect
 		(at 57.15 63.5)
 		(uuid "f1c899d9-7f7c-406d-8128-2c6ab4751c62")
 	)
@@ -8892,6 +8896,16 @@
 	)
 	(wire
 		(pts
+			(xy 57.15 68.58) (xy 63.5 68.58)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2d920f9d-1754-4559-89cf-85bf1e11ce32")
+	)
+	(wire
+		(pts
 			(xy 236.728 55.372) (xy 236.728 56.642)
 		)
 		(stroke
@@ -9039,6 +9053,16 @@
 			(type default)
 		)
 		(uuid "39bbb062-8558-4148-acce-cff16f9def76")
+	)
+	(wire
+		(pts
+			(xy 57.15 71.12) (xy 63.5 71.12)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3bacc09c-acd5-48c5-b76a-74357c1b3da4")
 	)
 	(wire
 		(pts
@@ -9362,6 +9386,16 @@
 	)
 	(wire
 		(pts
+			(xy 57.15 66.04) (xy 63.5 66.04)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "541bc19b-a0c1-4497-ac9a-da5d25e90ee7")
+	)
+	(wire
+		(pts
 			(xy 107.95 82.55) (xy 107.95 86.36)
 		)
 		(stroke
@@ -9452,7 +9486,7 @@
 	)
 	(wire
 		(pts
-			(xy 104.14 175.26) (xy 101.6 175.26)
+			(xy 101.6 175.26) (xy 116.84 175.26)
 		)
 		(stroke
 			(width 0)
@@ -10569,16 +10603,6 @@
 			(type default)
 		)
 		(uuid "af25483a-980b-41e5-84a6-9ca49d0dc23b")
-	)
-	(wire
-		(pts
-			(xy 111.76 175.26) (xy 116.84 175.26)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "af3693eb-61a3-4df0-8139-c809948e6aa1")
 	)
 	(wire
 		(pts
@@ -11756,7 +11780,7 @@
 	)
 	(global_label "LED4"
 		(shape output)
-		(at 57.15 66.04 0)
+		(at 63.5 66.04 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -11766,7 +11790,7 @@
 		)
 		(uuid "080dcd96-5c16-4697-b1c0-e2fa0c99526e")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 64.7918 66.04 0)
+			(at 71.1418 66.04 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12372,7 +12396,7 @@
 	)
 	(global_label "LED3"
 		(shape output)
-		(at 57.15 68.58 0)
+		(at 63.5 68.58 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -12382,7 +12406,7 @@
 		)
 		(uuid "6d780b0d-ddf1-41dc-bcf8-141adeafb565")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 64.7918 68.58 0)
+			(at 71.1418 68.58 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13010,7 +13034,7 @@
 	)
 	(global_label "LED2"
 		(shape output)
-		(at 57.15 71.12 0)
+		(at 63.5 71.12 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -13020,7 +13044,7 @@
 		)
 		(uuid "dc9fe0bc-fb30-4454-9aef-8e08d0048f08")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 64.7918 71.12 0)
+			(at 71.1418 71.12 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17312,118 +17336,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:LED")
-		(at 107.95 175.26 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "3bbee263-47e8-44fc-b739-b5fc6f3c1bb1")
-		(property "Reference" "LED1"
-			(at 109.22 168.91 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "RED"
-			(at 109.22 171.45 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "LED_SMD:LED_0603_1608Metric"
-			(at 107.95 175.26 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://wmsc.lcsc.com/wmsc/upload/file/pdf/v2/lcsc/2304140030_ROHM-Semicon-SML-D12U8WT86_C510027.pdf"
-			(at 107.95 175.26 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Light emitting diode"
-			(at 107.95 175.26 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "メーカ" ""
-			(at 107.95 175.26 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "購入先" "JLCPCB"
-			(at 107.95 175.26 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "型番" "SML-D12U8WT86"
-			(at 107.95 175.26 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC" "C510027"
-			(at 107.95 175.26 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "メーカー名" "Rohm"
-			(at 107.95 175.26 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "3f38e232-5b0c-40a3-b775-1419cd6049a9")
-		)
-		(pin "1"
-			(uuid "355b4a26-34d3-4fc6-85e1-af81a260a45c")
-		)
-		(instances
-			(project "NAGOYA_Normal_Board"
-				(path "/21c37265-f169-4bc1-832f-6fa8bb337745"
-					(reference "LED1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:R")
 		(at 97.79 175.26 90)
 		(unit 1)
@@ -18715,7 +18627,7 @@
 			)
 		)
 		(property "Value" "0.1u"
-			(at 151.638 128.016 0)
+			(at 150.368 126.746 0)
 			(effects
 				(font
 					(size 1.27 1.27)
