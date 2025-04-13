@@ -552,7 +552,7 @@
           "group_by": false,
           "label": "Datasheet",
           "name": "Datasheet",
-          "show": true
+          "show": false
         },
         {
           "group_by": false,
@@ -571,14 +571,116 @@
           "label": "DNP",
           "name": "${DNP}",
           "show": true
+        },
+        {
+          "group_by": false,
+          "label": "#",
+          "name": "${ITEM_NUMBER}",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "JLC",
+          "name": "JLC",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "LCSC",
+          "name": "LCSC",
+          "show": true
+        },
+        {
+          "group_by": false,
+          "label": "Sim.Device",
+          "name": "Sim.Device",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Sim.Pins",
+          "name": "Sim.Pins",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "サイズ",
+          "name": "サイズ",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "メモ",
+          "name": "メモ",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "メーカ",
+          "name": "メーカ",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "メーカー名",
+          "name": "メーカー名",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "値2",
+          "name": "値2",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "型番",
+          "name": "型番",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "購入URL",
+          "name": "購入URL",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "購入先",
+          "name": "購入先",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "購入先URL",
+          "name": "購入先URL",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "購入要否",
+          "name": "購入要否",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "部品名称",
+          "name": "部品名称",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "説明",
+          "name": "Description",
+          "show": false
         }
       ],
       "filter_string": "",
       "group_symbols": true,
       "include_excluded_from_bom": false,
-      "name": "Grouped By Value",
+      "name": "",
       "sort_asc": true,
-      "sort_field": "リファレンス"
+      "sort_field": "Reference"
     },
     "connection_grid_size": 50.0,
     "drawing": {
