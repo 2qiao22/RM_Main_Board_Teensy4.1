@@ -15282,7 +15282,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp yes)
+		(dnp no)
 		(uuid "1148fe5d-fefd-43b6-9c04-2bcca8668c27")
 		(property "Reference" "CN6"
 			(at 58.42 139.192 0)
@@ -15358,7 +15358,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C428721"
+		(property "LCSC" "C108769"
 			(at 66.04 144.78 0)
 			(effects
 				(font
@@ -15390,7 +15390,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp yes)
+		(dnp no)
 		(uuid "132cad4e-805d-4162-9ce4-c6513452d162")
 		(property "Reference" "CN2"
 			(at 13.97 164.592 0)
@@ -16334,7 +16334,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp yes)
+		(dnp no)
 		(uuid "1f17086e-71dc-4929-b4ec-3b39f12719bf")
 		(property "Reference" "CN1"
 			(at 59.69 122.682 0)
@@ -17084,8 +17084,8 @@
 		(lib_id "Jumper:SolderJumper_2_Open")
 		(at 147.32 91.44 180)
 		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
+		(exclude_from_sim yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp yes)
 		(uuid "257fae06-b5ff-49bd-af5c-298832fce16c")
@@ -18271,7 +18271,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp yes)
+		(dnp no)
 		(uuid "383952fb-51ca-4cc1-bfd3-963be5c94227")
 		(property "Reference" "CN3"
 			(at 13.97 176.022 0)
@@ -18347,7 +18347,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C428721"
+		(property "LCSC" "C108769"
 			(at 21.59 181.61 0)
 			(effects
 				(font
@@ -20503,7 +20503,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Button_Switch_SMD:SW_DIP_SPSTx04_Slide_Copal_CHS-04A_W5.08mm_P1.27mm_JPin"
+		(property "Footprint" "Button_Switch_SMD:SW_DIP_SPSTx04_Slide_Copal_CHS-04B_W7.62mm_P1.27mm"
 			(at 177.8 36.83 0)
 			(effects
 				(font
@@ -20530,7 +20530,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C132838"
+		(property "LCSC" "C40736 "
 			(at 177.8 36.83 0)
 			(effects
 				(font
@@ -23920,8 +23920,8 @@
 		(lib_id "Jumper:SolderJumper_2_Open")
 		(at 190.5 91.44 270)
 		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
+		(exclude_from_sim yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp yes)
 		(uuid "837e5289-58a0-4fad-b27b-bc6d861ab1d5")
@@ -27773,8 +27773,8 @@
 		(lib_id "Jumper:SolderJumper_2_Open")
 		(at 196.85 91.44 270)
 		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
+		(exclude_from_sim yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp yes)
 		(uuid "c5e17280-fd9c-4d3e-953d-a9c8639c4e14")
@@ -28696,7 +28696,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp yes)
+		(dnp no)
 		(uuid "d3909216-178b-428e-9f3f-b7ad244ddc0b")
 		(property "Reference" "CN4"
 			(at 44.45 164.592 0)
@@ -28772,7 +28772,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C428721"
+		(property "LCSC" "C108769"
 			(at 52.07 170.18 0)
 			(effects
 				(font
@@ -30647,7 +30647,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp yes)
+		(dnp no)
 		(uuid "f3fbce27-5715-43a4-9f59-552711ff1e34")
 		(property "Reference" "CN5"
 			(at 44.45 177.292 0)
@@ -30723,7 +30723,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C428721"
+		(property "LCSC" "C108769"
 			(at 52.07 182.88 0)
 			(effects
 				(font

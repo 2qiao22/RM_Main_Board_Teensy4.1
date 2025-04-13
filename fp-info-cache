@@ -1,4 +1,4 @@
-24823980630364048
+24825724428007784
 0_PCB
 Converter_DCDC_COSEL_MGFW802412
 
@@ -76,6 +76,13 @@ THT DIP DIL PDIP 2.54mm 25.4mm 1000mil Socket
 0
 32
 32
+0_PCB
+FIL_LXES11DAA2-137
+
+
+0
+6
+6
 0_PCB
 Fuse_Littelfuse_0603L_Series
 Fuse SMD 0603 (1608 Metric), Littelfuse 0603L Series Poly Switch
