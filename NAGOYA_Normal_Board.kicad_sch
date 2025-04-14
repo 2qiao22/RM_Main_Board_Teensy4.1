@@ -14937,7 +14937,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp yes)
+		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "0cbb5b97-2f18-4647-9daf-494e68d32f61")
 		(property "Reference" "F2"
@@ -15017,7 +15017,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp yes)
+		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "0cd7d29c-59af-4ce2-9dab-574a2140206f")
 		(property "Reference" "U5"
@@ -16033,7 +16033,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp yes)
+		(dnp no)
 		(uuid "19d36b7f-c0f0-45ea-b43e-39086ebcf5e3")
 		(property "Reference" "U9"
 			(at 112.1411 134.62 0)
@@ -16201,7 +16201,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp yes)
+		(dnp no)
 		(uuid "1e6e6bef-d1d6-4d61-98da-1e77866d6318")
 		(property "Reference" "C5"
 			(at 143.002 121.92 0)
@@ -19142,7 +19142,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp yes)
+		(dnp no)
 		(uuid "4ac807ed-1718-4786-899a-e2ba98fc93e3")
 		(property "Reference" "C16"
 			(at 181.102 127.254 0)
@@ -19667,7 +19667,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp yes)
+		(dnp no)
 		(uuid "52629849-3b70-4de3-a61b-1a4d4ca2ac8c")
 		(property "Reference" "C15"
 			(at 157.226 124.46 0)
@@ -23829,7 +23829,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp yes)
+		(dnp no)
 		(uuid "82ec8003-a45c-4232-9356-4195e4f307fe")
 		(property "Reference" "U8"
 			(at 168.402 129.794 0)
@@ -24504,7 +24504,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp yes)
+		(dnp no)
 		(uuid "8cc4293c-6e25-4806-ba83-ca52848e6344")
 		(property "Reference" "C4"
 			(at 116.332 151.892 0)
@@ -28171,7 +28171,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp yes)
+		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "cbc55df8-9404-47f8-803a-e70bc36b6c8a")
 		(property "Reference" "L2"
@@ -28326,7 +28326,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp yes)
+		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "cdb3de02-90ba-4cd0-b8ca-5c1355f1b88d")
 		(property "Reference" "CN15"
